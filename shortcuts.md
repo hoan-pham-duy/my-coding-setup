@@ -86,3 +86,9 @@ Ctrl-b-o
 bind | split-window -h
 bind - split-window -v
 
+# Copy mode
+https://www.rockyourcode.com/copy-and-paste-in-tmux/
+
+# Scroll
+Ctrl-b then [ then you can use your normal navigation keys to scroll around (eg. Up Arrow or PgDn)
+https://superuser.com/questions/209437/how-do-i-scroll-in-tmux
