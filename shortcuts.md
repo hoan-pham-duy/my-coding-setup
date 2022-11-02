@@ -18,6 +18,11 @@
 
 
 *** VIM ***
+- Go back to the last buffer using: :b#
+- Go to next of word: w
+- Go to back of word: bw
+- Delete whole word: dw
+- Delete whole word backward: db
 - Go to definition: gD
 - Indentation a file: gg=G
 - Move cursor to middle of line: gm
@@ -28,11 +33,16 @@
 - open terminal below: below terminal
 - change position of window: ctrl+w+r
 - rename file in NerdTree: https://stackoverflow.com/questions/1205286/renaming-the-current-file-in-vim
+- To switch to the next tab, use :tabn, and to switch to the previous tab, use :tabp 
 - create new file and open in newtab: !touch newfile.txt    -> :tabnew newfile.txt 
 - remove hightlight: :noh
-
-
+- Enable mouse: set mouse=a
+- Resize heigh: 10<C-W>+ or 10<C-W>-
+- Create New Folder/New File: When in the NERDTree window, press 'm'; you should see a menu at the bottom. Type in 'a' for add childnode(folder/file).
+- Search text in whole folder: :vim foo **/*.js | copen
 *** Tmux ***
+#New tab:
+From current directly: tmux neww
 # Open command
 Ctrl-b :
 # session management
@@ -54,6 +64,7 @@ Ctrl-b o Switch to the next pane
 Ctrl-b ? List all keybindings
 
 # moving between windows
+Ctrl-b o Switch to the next pane
 Ctrl-b n (Move to the next window)
 Ctrl-b p (Move to the previous window)
 Ctrl-b l (Move to the previously selected window)
