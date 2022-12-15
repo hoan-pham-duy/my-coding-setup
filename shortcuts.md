@@ -15,8 +15,8 @@
 {
   "workbench.editor.enablePreview": false
 }
-
-
++ Setup Keyboard Shortcuts: (Goto File->Preferences-> Keyboard Shurtcuts -> click to Icons)https://stackoverflow.com/questions/48440673/how-to-switch-between-terminals-in-visual-studio-code 
++ Toggle maximize terminal: https://stackoverflow.com/questions/48511956/toggle-between-fullscreen-editor-and-terminal-in-vs-code
 *** VIM ***
 - Go to definition: gD
 - Indentation a file: gg=G
@@ -49,8 +49,18 @@ p (lowercase): Paste after your cursor
 # Open command
 Ctrl-b :
 # session management
+
+- List session
 tmux ls (or tmux list-sessions)
+ctrl-b s
+
+-New session:
+ctrl-b :new -s <name_session>
 tmux new -s session-name
+
+- Rename session:
+tmux rename-session -t my_session_1 my_session_2
+
 Ctrl-b d Detach from session
 tmux attach -t [session name]
 tmux kill-session -t session-name
