@@ -31,6 +31,7 @@
 - create new file and open in newtab: !touch newfile.txt    -> :tabnew newfile.txt 
 - remove hightlight: :noh
 - Copying (Yanking)
+
 yy: Copy the current line in vi
 3yy: To yank multiple lines in vim, type in the number of lines followed by yy. This command will copy (yank) 3 lines starting from your cursor position.
 y$: Copy everything from the cursor to the end of the line
@@ -45,6 +46,8 @@ Putting (Pasting)
 P (uppercase): Paste before your cursor
 p (lowercase): Paste after your cursor
 
+** NERDTREE Vim
+- New directory and file: childnode: m -> a: https://stackoverflow.com/questions/2888975/how-to-create-a-directory-using-nerdtree
 *** Tmux ***
 # Open command
 Ctrl-b :
