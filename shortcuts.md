@@ -49,6 +49,10 @@ p (lowercase): Paste after your cursor
 ** NERDTREE Vim
 - New directory and file: childnode: m -> a: https://stackoverflow.com/questions/2888975/how-to-create-a-directory-using-nerdtree
 *** Tmux ***
+- Save config in background:
+tmux source-file ~/.tmux.conf
+Save config tmux and reload: prefix + Ctrl-s, - save; prefix + Ctrl-r - restore
+https://github.com/tmux-plugins/tmux-resurrect
 # Open command
 Ctrl-b :
 # session management
@@ -118,3 +122,6 @@ https://www.rockyourcode.com/copy-and-paste-in-tmux/
 # Scroll
 Ctrl-b then [ then you can use your normal navigation keys to scroll around (eg. Up Arrow or PgDn)
 https://superuser.com/questions/209437/how-do-i-scroll-in-tmux
+
+** Git
+- Unstaged, redo commit a file: git reset HEAD hello.html 
